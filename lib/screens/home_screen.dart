@@ -5,6 +5,9 @@ import 'weather_details_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   final TextEditingController _controller = TextEditingController();
+  final String lastSearchedCity;
+
+  HomeScreen({required this.lastSearchedCity});
 
   @override
   Widget build(BuildContext context) {
